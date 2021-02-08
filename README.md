@@ -8,3 +8,11 @@
 5) npm install
 6) Returning to weatherApiMern
 7) npm run dev
+
+a)To install MongoDB, download one redistributable package from the official site https://www.mongodb.com/download-center/community.
+
+b)After downloading the archive package, unpack it into the C: \ mongodb folder.
+
+c) cd (C:\mongodb\bin)
+
+8) mongod
