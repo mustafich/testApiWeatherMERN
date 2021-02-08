@@ -1,0 +1,19 @@
+.main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-block {
+    margin-top: 300px;
+    width: 700px;
+    height: 200px;
+    border-radius: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+    font-size: 22px;
+    }
+  }
+}

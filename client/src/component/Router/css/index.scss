@@ -1,0 +1,19 @@
+.preview_block {
+  display: flex;
+  margin-top:100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .preview_block {
+    justify-content: center;
+
+    .info {
+      order: -1;
+    }
+  }
+  .TheBest {
+    width: 600px;
+  }
+}

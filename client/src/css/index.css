@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+}
+
+.App {
+  position: relative;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-size: cover;
+  background-image: url(https://images.wallpaperscraft.ru/image/nochnoe_nebo_zvezdy_zvezdnoe_nebo_118036_1920x1080.jpg);
+  background-attachment: fixed;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-position: 50% 50%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

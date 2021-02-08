@@ -1,0 +1,130 @@
+
+.header {
+  position: fixed;
+  z-index: 3;
+  background: linear-gradient(to bottom, #45484d 0%, #000 100%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  height: 65px;
+  width: 100%;
+
+  .container {
+    height: 100%;
+  }
+
+  &-block {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_weather {
+      p {
+        color: #dd1982;
+        font-size: 26px;
+        cursor: pointer;
+      }
+    }
+    &_name {
+      display: flex;
+      font-size: 26px;
+      color: white;
+      span {
+        cursor: pointer;
+        margin: 0px 10px 0 10px;
+      }
+    }
+
+    &_logo {
+      cursor: pointer;
+
+      span {
+        display: flex;
+        font-size: 24px;
+        color: #dd1982;
+        font-family: Vast Shadow;
+
+        .two {
+          margin-left: 2px;
+          color: white;
+        }
+      }
+
+    }
+
+    &_authorization {
+      align-items: center;
+      display: flex;
+
+      .cabinet-header {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+      }
+
+      span {
+        width: 2px;
+        background: white;
+        height: 45px;
+        margin: 0 3px 0 3px;
+      }
+
+      i {
+        font-size: 22px;
+        color: white;
+        margin: 0 10px;
+      }
+
+      &__name {
+        margin: 0 5px;
+        font-size: 24px;
+        display: flex;
+        color: white;
+      }
+
+      &__logout {
+        cursor: pointer;
+      }
+
+      &__login, &__registration {
+        margin: 5px;
+        color: #fff;
+        border-radius: 3px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 8px 12px;
+        font-size: 14px;
+        box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.12), 1px 1px 0px rgba(0, 0, 0, 0.89);
+        cursor: pointer;
+
+        &:hover {
+          background: rgba(229, 227, 227, 0.2);
+        }
+      }
+    }
+  }
+}
+
+.header-block_authorization__message {
+  padding-right: 12px;
+  position: relative;
+  cursor: pointer;
+
+  &___count {
+    right: 0;
+    top: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: absolute;
+    //color: #dd1982;
+    color: white;
+    font-weight: 700;
+
+    p {
+
+    }
+  }
+}

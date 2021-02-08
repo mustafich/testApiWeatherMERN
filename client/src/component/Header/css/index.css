@@ -1,0 +1,109 @@
+.header {
+  position: fixed;
+  z-index: 3;
+  background: linear-gradient(to bottom, #45484d 0%, #000 100%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  height: 65px;
+  width: 100%;
+}
+.header .container {
+  height: 100%;
+}
+.header-block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-block_weather p {
+  color: #dd1982;
+  font-size: 26px;
+  cursor: pointer;
+}
+.header-block_name {
+  display: flex;
+  font-size: 26px;
+  color: white;
+}
+.header-block_name span {
+  cursor: pointer;
+  margin: 0px 10px 0 10px;
+}
+.header-block_logo {
+  cursor: pointer;
+}
+.header-block_logo span {
+  display: flex;
+  font-size: 24px;
+  color: #dd1982;
+  font-family: Vast Shadow;
+}
+.header-block_logo span .two {
+  margin-left: 2px;
+  color: white;
+}
+.header-block_authorization {
+  align-items: center;
+  display: flex;
+}
+.header-block_authorization .cabinet-header {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.header-block_authorization span {
+  width: 2px;
+  background: white;
+  height: 45px;
+  margin: 0 3px 0 3px;
+}
+.header-block_authorization i {
+  font-size: 22px;
+  color: white;
+  margin: 0 10px;
+}
+.header-block_authorization__name {
+  margin: 0 5px;
+  font-size: 24px;
+  display: flex;
+  color: white;
+}
+.header-block_authorization__logout {
+  cursor: pointer;
+}
+.header-block_authorization__login, .header-block_authorization__registration {
+  margin: 5px;
+  color: #fff;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  font-size: 14px;
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.12), 1px 1px 0px rgba(0, 0, 0, 0.89);
+  cursor: pointer;
+}
+.header-block_authorization__login:hover, .header-block_authorization__registration:hover {
+  background: rgba(229, 227, 227, 0.2);
+}
+
+.header-block_authorization__message {
+  padding-right: 12px;
+  position: relative;
+  cursor: pointer;
+}
+.header-block_authorization__message___count {
+  right: 0;
+  top: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 2px solid white;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=index.css.map */
