@@ -47,18 +47,17 @@ const loginUser = async (userCreds, role, res) => {
             success: false
         });
     }
-    // We will check the role
+
     if (user.role !== role) {
         return res.status(403).json({
             message: "Пожалуйста, убедитесь, что вы входите с правильного порта.",
             success: false
         });
     }
-    // That means profileUserDataRole is existing and trying to signin fro the right portal
-    // Now check for the password
+
     let isMatch = await bcrypt.compare(password, user.password);
     if (isMatch) {
-        // Sign in the token and issue it to the profileUserDataRole
+
         let token = jwt.sign(
             {
                 user_id: user._id,
@@ -95,14 +94,10 @@ const validateUsername = async username => {
     return user ? false : true;
 };
 
-/**
- * @DESC Passport middleware
- */
+
 const userAuth = passport.authenticate("jwt", {session: false});
 
-/**
- * @DESC Check Role Middleware
- */
+
 const checkRole = roles => (req, res, next) => {
 debugger
     !roles.includes(req.user.role)

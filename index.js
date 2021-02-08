@@ -5,13 +5,13 @@ const passport = require("passport");
 const { connect } = require("mongoose");
 const { success, error } = require("consola");
 
-// Bring in the app constants
+
 const { DB, PORT } = require("./config");
 
-// Initialize the application
+
 const app = exp();
 
-// Middlewares
+
 app.use(cors());
 app.use(bp.json());
 app.use(passport.initialize());
@@ -19,17 +19,15 @@ app.use(passport.initialize());
 require("./middlewares/passport")(passport);
 
 
-// User Router Middleware
-// Роуты для не зарегестрирываных
 app.use("/api/authentication", require("./routes/authentication"));
-// Роуты для зарегестрирываных users
+
 app.use("/api/", require("./routes/user"));
 
 
 const startApp = async () => {
 
   try {
-    // Connection With DB
+
     await connect(DB, {
       useFindAndModify: true,
       useUnifiedTopology: true,
@@ -42,7 +40,7 @@ const startApp = async () => {
       badge: true
     });
 
-    // Start Listenting for the server on PORT
+
     app.listen(PORT, () =>
       success({ message: `Server started on PORT ${PORT}`, badge: true })
     );
