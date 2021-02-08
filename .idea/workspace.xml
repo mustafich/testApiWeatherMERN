@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="faf8a8e0-e791-406c-a91e-e25305d71275" name="Default Changelist" comment="Add all my files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/request/Authorization/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/request/Authorization/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitTest" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
@@ -220,7 +218,7 @@
       <workItem from="1612628751539" duration="224000" />
       <workItem from="1612628978381" duration="14869000" />
       <workItem from="1612728581575" duration="29896000" />
-      <workItem from="1612763778526" duration="4951000" />
+      <workItem from="1612763778526" duration="5154000" />
     </task>
     <task id="LOCAL-00001" summary="Add all my files">
       <created>1612769887062</created>
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612769887062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add all my files">
+      <created>1612771183070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612771183070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,14 +260,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612630864687" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612628975061">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612771363692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612628975061" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612770049717">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612771363692" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612771199571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612770049717" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612771199571" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612758683481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
