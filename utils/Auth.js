@@ -10,7 +10,7 @@ const userRegister = async (userDets, role, res) => {
         let loginNotRegisteredUser = await User.findOne({login: userDets.login})
         if (loginNotRegisteredUser) {
             return res.status(400).json({
-                message: `Логин уже зарегистрирована.`,
+                message: `Логин уже зарегистрирован.`,
                 success: false
             });
         }

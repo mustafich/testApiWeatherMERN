@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf8a8e0-e791-406c-a91e-e25305d71275" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="faf8a8e0-e791-406c-a91e-e25305d71275" name="Default Changelist" comment="Add all my files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/request/Authorization/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/request/Authorization/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,12 +220,35 @@
       <workItem from="1612628751539" duration="224000" />
       <workItem from="1612628978381" duration="14869000" />
       <workItem from="1612728581575" duration="29896000" />
-      <workItem from="1612763778526" duration="3606000" />
+      <workItem from="1612763778526" duration="4951000" />
     </task>
+    <task id="LOCAL-00001" summary="Add all my files">
+      <created>1612769887062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612769887062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add all my files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all my files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612630864687">
@@ -226,6 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612628975061" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612770049717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612770049717" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612758683481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,6 +271,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="219" y="391" width="686" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612755533820" />
+    <state x="746" y="420" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612770030284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="746" y="420" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612770030284" />
     <state x="616" y="235" key="run.anything.popup" timestamp="1612742540522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
